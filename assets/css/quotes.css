@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+body, 
+html{
+    width:auto;
+    background:#C5E3DB;
+    color: #83726B;
+    height: 100%;
+    font-size:120%;
+}
+
+#page-wrap{
+    position:relative;
+    width:600px;
+    height: auto;
+    background: #DD8082;
+    margin:auto;
+    overflow-y:hidden;
+}
+
+
+
+h1{
+    margin-top:50px;
+	text-align: center;
+    color: #83726B;
+    font-family: 'Amatic SC', cursive;
+   
+    
+    
+}
+
+#buttons-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+#quote-section{
+    width:auto;
+    padding:40px;
+    text-align: center;
+    
+    
+}
+
+#author-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right:90px;
+     
+}
+
+#tweet,
+#newQuote{
+    font-size: 50px;
+    background-color: transparent;
+    color:#83726B;
+    border: solid 3px #DD8082;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#footer{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+ 
+}
+
+.fa-arrow-right:hover,
+.fa-twitter-square:hover{
+    text-decoration: none;
+    transform: scaleX(1.4) scaleY(1.4);
+  
+}
+
+#tweet:active,
+#newQuote:active
+{
+   
+    outline-color: #DD8082;
+
+}
+
+a{
+  color: #83726B;
+}
+
+@media only screen and (max-width: 600px){
+    #page-wrap{
+    width:auto;
+    height: auto;
+    margin:auto;
+    overflow-y:hidden;
+}
+    
+}
